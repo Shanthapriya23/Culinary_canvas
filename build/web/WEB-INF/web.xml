@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>loogout</servlet-name>
+        <servlet-class>loogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MenuItems</servlet-name>
+        <servlet-class>Demo.MenuItems</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MinPath</servlet-name>
+        <servlet-class>Demo.MinPath</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DbConnection</servlet-name>
+        <servlet-class>com.db.utils.DbConnection</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MinPath_1</servlet-name>
+        <servlet-class>Demo.MinPath_1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loogout</servlet-name>
+        <url-pattern>/loogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MenuItems</servlet-name>
+        <url-pattern>/MenuItems</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MinPath</servlet-name>
+        <url-pattern>/MinPath</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DbConnection</servlet-name>
+        <url-pattern>/DbConnection</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MinPath_1</servlet-name>
+        <url-pattern>/MinPath_1</url-pattern>
+    </servlet-mapping>
+</web-app>
